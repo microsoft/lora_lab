@@ -1,0 +1,1 @@
+C:\Users\anarvekar\Downloads\LoraSample 3\LoRa.Package\LoRa.Package.wapproj;arm64
