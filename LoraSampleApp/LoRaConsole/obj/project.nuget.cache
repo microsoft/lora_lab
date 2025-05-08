@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "twOrdOSsDG0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anarvekar\\Documents\\lora_lab\\LoraSampleApp\\LoRaConsole\\LoRaConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anarvekar\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
+    "C:\\Users\\anarvekar\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
+    "C:\\Users\\anarvekar\\.nuget\\packages\\microsoft.windowsappsdk\\1.8.250501003-experimental\\microsoft.windowsappsdk.1.8.250501003-experimental.nupkg.sha512",
+    "C:\\Users\\anarvekar\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\9.0.0\\microsoft.netcore.app.runtime.win-x86.9.0.0.nupkg.sha512",
+    "C:\\Users\\anarvekar\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.54\\microsoft.windows.sdk.net.ref.10.0.22621.54.nupkg.sha512",
+    "C:\\Users\\anarvekar\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\9.0.0\\microsoft.aspnetcore.app.runtime.win-x86.9.0.0.nupkg.sha512",
+    "C:\\Users\\anarvekar\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\9.0.0\\microsoft.netcore.app.runtime.win-arm64.9.0.0.nupkg.sha512",
+    "C:\\Users\\anarvekar\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\9.0.0\\microsoft.aspnetcore.app.runtime.win-x64.9.0.0.nupkg.sha512",
+    "C:\\Users\\anarvekar\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\9.0.0\\microsoft.windowsdesktop.app.runtime.win-arm64.9.0.0.nupkg.sha512",
+    "C:\\Users\\anarvekar\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\9.0.0\\microsoft.windowsdesktop.app.runtime.win-x64.9.0.0.nupkg.sha512",
+    "C:\\Users\\anarvekar\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\9.0.0\\microsoft.aspnetcore.app.runtime.win-arm64.9.0.0.nupkg.sha512",
+    "C:\\Users\\anarvekar\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\9.0.0\\microsoft.netcore.app.runtime.win-x64.9.0.0.nupkg.sha512",
+    "C:\\Users\\anarvekar\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\9.0.0\\microsoft.windowsdesktop.app.runtime.win-x86.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
