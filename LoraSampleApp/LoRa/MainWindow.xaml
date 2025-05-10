@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="LoRa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="using:LoRa"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Title="LoRa">
+    <Grid x:Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch"
+                ColumnSpacing="8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Adapter" Margin="10" VerticalAlignment="Center"
+                    Grid.Column="0" />
+            <TextBox x:Name="AdapterTextBox" Grid.Column="1" Margin="0,10" />
+            <Button Content="Select file" Click="SelectFile_Click" Width="100" Margin="10"
+                    Grid.Column="2" />
+        </Grid>
+        <Grid Grid.Row="1" Grid.ColumnSpan="2" ColumnSpacing="8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Prompt" Margin="10" VerticalAlignment="Center"
+                    Grid.Column="0" />
+            <TextBox x:Name="PromptTextBox" Margin="0,10" Grid.Column="1" AcceptsReturn="True" TextWrapping="Wrap" MaxHeight="300"/>
+            <Button x:Name="GenerateButton" Content="Generate" Click="Generate_Click"
+                    Margin="10" Width="100" Grid.Column="2" />
+        </Grid>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="With Adapter" Margin="10"
+                FontWeight="Bold" />
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="Without Adapter" Margin="10"
+                FontWeight="Bold" />
+        <ScrollViewer x:Name="LoraScroll" Grid.Row="3" Grid.Column="0"
+                HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10">
+            <TextBlock x:Name="LoraTxt" HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch" TextWrapping="Wrap" />
+        </ScrollViewer>
+        <ScrollViewer x:Name="NoLoraScroll" Grid.Row="3" Grid.Column="1"
+                HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10">
+            <TextBlock x:Name="NoLoraTxt" HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch" TextWrapping="Wrap" />
+        </ScrollViewer>
+        <TextBlock x:Name="InitTxt" Grid.Row="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" TextWrapping="Wrap" Visibility="Collapsed"/>
+        <TextBlock x:Name="InitTxtNoLora" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" TextWrapping="Wrap" Visibility="Collapsed"/>
+    </Grid>
+</Window>

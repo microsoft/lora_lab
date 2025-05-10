@@ -1,1 +1,0 @@
-C:\Users\anarvekar\Documents\lora_lab\LoraSampleApp\LoRa.Package\LoRa.Package.wapproj;arm64

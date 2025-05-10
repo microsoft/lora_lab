@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LoRa (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "LoRa (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
