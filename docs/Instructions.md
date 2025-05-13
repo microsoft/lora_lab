@@ -13,5 +13,11 @@ Instructions to follow along with the lab
    ![](./images/FineTuningWorkflow.png)
 3.  Click on *New Fine-tuning Job* in the upper right and select *New Fine-tuning Project* \
    ![](./images/FineTuningJob.png)
-4. 
-
+4. Enter the project name, and select a project location. \
+   ![](./images/ProjectDetails.png)
+5. Select *microsoft/phi-silica* from the Model Catalog. \
+   ![](./images/ProjectDetails2.png)
+6. Click on *Configure Project* in the upper right. \
+   ![](./images/ConfigureProject.png)
+7. Select the latest version of Phi Silica. \
+   ![](./images/PhiSilicaVersion.png)
