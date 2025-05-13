@@ -41,3 +41,15 @@ Instructions to follow along with the lab
     ![](./images/SelectResourceGroup.png)
 14. Done! The fine-tuning job was successfully started. \
     ![](./images/JobProvisioned.png)
+15. OPTIONAL: Download the newly trained LoRA Adapter once the job is complete. \
+    ![](./images/DownloadAdapter.png)
+
+## Inference
+1. To use the newly trained LoRA adapter, we are going to use the AI Dev Gallery app. AI Dev Gallery is an app which allows you to experiment with local AI models and APIs, and view and export sample code. Start by launching the AI Dev Gallery App. \
+   ![](./images/DevGallery.png)
+2. Click on the *AI APIs* tab and select *Phi Silica LoRA*. \
+   ![](./images/DevGalleryAPIs.png)
+3. Select the pretrained adapter file. This is saved under *lora_lab>trainedLora*
+4. Fill out the System Prompt and Prompt fields and hit *Generate* to see the difference between Phi Silica with and without LoRA adapter. Feel free to play with the prompt and system prompt to see how this makes a difference to your output.
+* System Prompt: The input is user provided feedback, return a json with feedback summary and feedback type (compliment, bug, feature_request).
+* Prompt: I really like what you've done with the new smart-lid UI, everything is sleek and intuitive to use. Will be using this app way more frequently now.
