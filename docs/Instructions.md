@@ -35,4 +35,9 @@ Instructions to follow along with the lab
 11. Click on *New Fine-tuning job* in the upper right. \
     ![](./images/NewFineTuning.png)
     ![](./images/NameJob.png)
-13. 
+12. In the dialog, select the Microsoft account with which to access your Azure subscription. You may be redirected to login - this is where you use the credentials from the beginning of the lab instructions. \
+    ![](./images/SelectAzureSub.png)
+13. Select the resource group from the dropdown. \
+    ![](./images/SelectResourceGroup.png)
+14. Done! The fine-tuning job was successfully started. \
+    ![](./images/JobProvisioned.png)
