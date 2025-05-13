@@ -21,3 +21,18 @@ Instructions to follow along with the lab
    ![](./images/ConfigureProject.png)
 7. Select the latest version of Phi Silica. \
    ![](./images/PhiSilicaVersion.png)
+8. Under *Data > Training Dataset name* and *Test Dataset name*, select your train.json and your test.json files. The datasets are avialable in the lora_lab folder under the subfolder user_feedback_datasets. \
+   ![](./inages/ImportTrainingData.png)
+9. Click on *Generate Project* in the upper right. A new VS code window should open up. \
+10. View the bicep file, this is the resource that allows you to deploy your job to Azure. This can be found under *infra > provision > finetuning.bicep*. The following should be under workloadProfiles
+    Add the following under workloadProfiles 
+```
+{ 
+         workloadProfileType: 'Consumption-GPU-NC24-A100' 
+         name: 'GPU'
+} 
+```
+11. Click on *New Fine-tuning job* in the upper right. \
+    ![](./images/NewFineTuning.png)
+    ![](./images/NameJob.png)
+13. 
