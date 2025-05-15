@@ -4,7 +4,7 @@ This repo contains a pretrained adapter, the AI Toolkit Visual Studio Code exten
 
 ## Prompts
 * my rocketship seat is so uncomfortable, i get a headache when I sit on it. This issue is bothering me so much that i can't fly my rocketship.
-* * I really like what you've done with the new smart-lid sensor UI, everything is sleek and intuitive to use. Will be using this app way more frequently now.
+* I really like what you've done with the new smart-lid sensor UI, everything is sleek and intuitive to use. Will be using this app way more frequently now.
 
 
 ## System Prompt
